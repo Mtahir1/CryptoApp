@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Chantal Gennari:mailto:Chantal.Gennari@huber-group.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Gunter Ger
+ tung:mailto:Gunter.Gertung@huber-group.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Dr. Matthi
+ as Spägele:mailto:Matthias.Spaegele@huber-group.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Carmen Ein
+ enkel:mailto:c.einenkel@karesources.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=INFO@TAHIR
+ -SHAHZAD.TECH:mailto:INFO@TAHIR-SHAHZAD.TECH
+ATTENDEE;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Jacqueline
+  Trobis:mailto:Jacqueline.Trobis@huber-group.com
+DESCRIPTION;LANGUAGE=de-DE:Schönen guten Mittag Frau Einenkel\,\n\nnochmal
+ s vielen Dank für die Bestätigung unserer ersten gemeinsamen Vorstellung
+ .\n\nAnbei erhalten Sie besprochen den Link zur Besprechung:\n\n__________
+ ________________________\nMicrosoft Teams-Besprechung\nNehmen Sie von Ihre
+ m Computer oder der mobilen App aus teil\nKlicken Sie hier\, um an der Bes
+ prechung teilzunehmen<https://teams.microsoft.com/l/meetup-join/19%3ameeti
+ ng_MWI4ZGJmOTMtZGMzOC00MmE4LTgwNzUtZmU1MzA4NDAxOGQ3%40thread.v2/0?context=
+ %7b%22Tid%22%3a%221776c5e0-0dbc-4013-a755-aaaf3401e4d4%22%2c%22Oid%22%3a%2
+ 21b13da25-92b6-43ff-b4f0-ff1b8c75447e%22%7d>\nWeitere Infos<https://aka.ms
+ /JoinTeamsMeeting> | Besprechungsoptionen<https://teams.microsoft.com/meet
+ ingOptions/?organizerId=1b13da25-92b6-43ff-b4f0-ff1b8c75447e&tenantId=1776
+ c5e0-0dbc-4013-a755-aaaf3401e4d4&threadId=19_meeting_MWI4ZGJmOTMtZGMzOC00M
+ mE4LTgwNzUtZmU1MzA4NDAxOGQ3@thread.v2&messageId=0&language=de-DE>\n_______
+ _________________________________________________________________________\
+ n\nWir freuen uns!\n
+UID:040000008200E00074C5B7101A82E0080000000080C1F50DA937D801000000000000000
+ 0100000005B002CB5055DC04088D200F30572F15C
+SUMMARY;LANGUAGE=de-DE:Online-Vorstellung Hr. Shahzad (KA Recources) 
+DTSTART;TZID=W. Europe Standard Time:20220316T150000
+DTEND;TZID=W. Europe Standard Time:20220316T154500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20220314T124237Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=de-DE:Microsoft Teams-Besprechung
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:1926117350
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MWI4ZGJmOTMtZGMzOC00MmE4LTgwNzUtZmU1MzA4NDAxOGQ3%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%221776c5e0-0dbc-4013-a755-aaaf3401e4d4%22%2c%22O
+ id%22%3a%221b13da25-92b6-43ff-b4f0-ff1b8c75447e%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/1776c5e0-0dbc-4013-a755-aaaf3401e4d4/1b13da25-92b6-43ff-b4f0-f
+ f1b8c75447e/19_meeting_MWI4ZGJmOTMtZGMzOC00MmE4LTgwNzUtZmU1MzA4NDAxOGQ3@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MWI4ZGJmOTMtZGMzOC00MmE
+ 4LTgwNzUtZmU1MzA4NDAxOGQ3@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:chantal.herzog@huber-group.com\;
+ gruu\;opaque=app:conf:focus:id:teams:2:0!19:meeting_MWI4ZGJmOTMtZGMzOC00Mm
+ E4LTgwNzUtZmU1MzA4NDAxOGQ3-thread.v2!1b13da2592b643ffb4f0ff1b8c75447e!1776
+ c5e00dbc4013a755aaaf3401e4d4
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams-Besprechung"\, "
+ LocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "
+ LocationUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
