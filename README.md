@@ -1,10 +1,16 @@
 ### Live Link
+
 https://tahircryptoreactapp.netlify.app/
 
 ### Introduction
 * State Management using Redux Toolkit 
 * UI Creation using Ant Design 
 * Data fetched from multiple sources using RapidAPI 
+
+### Dependecies
+
+npm install antd @ant-design/icons react-redux @reduxjs/toolkit axios chart.js html-react-parser millify moment react-chartjs-2
+npm install react-router-dom
 
 ### Getting Started with Create React App
 
