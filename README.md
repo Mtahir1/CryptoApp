@@ -10,6 +10,7 @@ https://tahircryptoreactapp.netlify.app/
 ### Dependecies
 
 npm install antd @ant-design/icons react-redux @reduxjs/toolkit axios chart.js html-react-parser millify moment react-chartjs-2
+<br />
 npm install react-router-dom
 
 ### Getting Started with Create React App
