@@ -2,9 +2,9 @@
 https://tahircryptoreactapp.netlify.app/
 
 ### Introduction
-State Management using Redux Toolkit 
-UI Creation using Ant Design 
-Data fetched from multiple sources using RapidAPI 
+* State Management using Redux Toolkit 
+* UI Creation using Ant Design 
+* Data fetched from multiple sources using RapidAPI 
 
 ### Getting Started with Create React App
 
